@@ -126,7 +126,7 @@ void plist_del(struct plist_node *node, struct plist_head *head)
 		}
 		list_del_init(&node->prio_list);
 	}
-
+	
 	list_del_init(&node->node_list);
 
 	plist_check_head(head);
