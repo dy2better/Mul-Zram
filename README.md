@@ -8,7 +8,7 @@ Mul-Zram is implemented as follows:
 Depending on the objective, Mul-Zram can improve the compression speed of memory compression or CPU utilization compared with the default Zram module.
 ## Configuration 
 The system configuration for developing Mul Zram is as follows:
-*1. CPU Model: FT-2000/4
-*2. Operating System Version: OpenEuler-20.03-LTS-SP3
-*3. Linux Kernel Version: linux-5.18.14
-*4. Compression algorithm used by Zram: Zstandard(zstd)
+* 1. CPU Model: FT-2000/4
+* 2. Operating System Version: OpenEuler-20.03-LTS-SP3
+* 3. Linux Kernel Version: linux-5.18.14
+* 4. Compression algorithm used by Zram: Zstandard(zstd)
