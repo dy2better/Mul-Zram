@@ -13,9 +13,11 @@ The system configuration for developing Mul Zram is as follows:
 * Linux Kernel Version：linux-5.18.14
   * Kernel Configuration：CONFIG_64BIT=y; CONFIG_ZRAM=y;
 * Compression algorithm used by Zram：Zstandard(zstd)
+
 The environment configuration of objective 1 is as follows:
 * sysctl vm.swappiness=5
 * sysctl vm.watermark_scale_factor=20
+
 The environment configuration of objective 2 is as follows:
 *	sysctl vm.min_free_kbytes=112640
 * sysctl vm.watermark_scale_factor=18
